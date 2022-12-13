@@ -1,0 +1,44 @@
+@import "../../variables.scss";
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #c3b7b4;
+  position: relative;
+  font-family: $common-font;
+  padding: 15px;
+  ul {
+    padding-left: 15px;
+    margin: 10px 0;
+  }
+}
+
+.logo {
+  width: 25%;
+  height: 25%;
+  margin-top: -16%;
+  left: 38%;
+  position: absolute;
+}
+.title {
+  color: #bd264b;
+  font-weight: 600;
+  margin: 0;
+}
+
+.descript {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.customButton {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  color: #bd264b;
+  border: 1px #bd264b solid;
+  cursor: pointer;
+  margin-top: 20px;
+}

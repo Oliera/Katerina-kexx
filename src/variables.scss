@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Cormorant-Regular";
+  src: url("./assets/fonts/Cormorant-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("./assets/fonts/Inter-Regular.ttf") format("truetype");
+}
+
+$common-font: "Cormorant-Regular";
+$header-font: "Inter-Regular";

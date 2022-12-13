@@ -1,0 +1,13 @@
+.currentButton {
+  width: 155px;
+  height: 50px;
+  border: 1px white solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.title {
+  color: white;
+  margin: 0;
+}
