@@ -33,6 +33,9 @@
   display: flex;
   flex-direction: row;
   overflow: scroll;
+  @media (min-width: 821px) {
+    justify-content: center;
+  }
 }
 
 .aboutBlock {
@@ -67,12 +70,14 @@
 }
 
 .aboutBlockInside {
-  // border: 1px solid #bd264b;
   width: 350px;
-  // display: flex;
-  // // flex-direction: row;
-  // align-items: flex-start;
-  // justify-content: space-around;
-  // margin: 10px;
   padding: 15px;
+}
+
+.frame {
+  margin-top: 40px;
+  width: 100%;
+  @media (min-width: 821px) {
+    display: none;
+  }
 }

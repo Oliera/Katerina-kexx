@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./AboutMe.module.scss";
 import Logo from "../../assets/KaterinaKexx.png";
 import { CAROUSEL } from "../../constants";
+import Frame from "../../assets/frame.png";
 
 const AboutMe = () => {
   return (
@@ -31,6 +32,7 @@ const AboutMe = () => {
           )
         )}
       </div>
+      <img className={styles.frame} src={Frame} alt='' />
     </div>
   );
 };

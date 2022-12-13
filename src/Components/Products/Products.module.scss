@@ -35,12 +35,25 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 15px;
+    @media (min-width: 821px) {
+      width: 25%;
+      height: 100%;
+    }
   }
   .currentProductLogo {
     width: 90%;
     height: 90%;
     object-fit: cover;
+    @media (min-width: 400px) {
+      width: 45%;
+      height: 80%;
+    }
+    @media (min-width: 821px) {
+      width: 300px;
+      height: 300px;
+    }
   }
+
   .productTitle {
     font-family: $common-font;
     overflow-wrap: inherit;
