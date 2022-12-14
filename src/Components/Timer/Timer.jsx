@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./Timer.module.scss";
 
 const Timer = () => {
-  const deadline = "December 26 2022 00:00:00 GMT+0300";
+  const deadline = "December 23 2022 00:00:00 GMT+0300";
   // eslint-disable-next-line no-unused-vars
   const [currentTime, setCurrentTime] = useState("");
 

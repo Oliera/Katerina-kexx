@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.261ae83c.css",
+    "main.js": "/static/js/main.ffe94768.js",
+    "static/js/787.0f216f03.chunk.js": "/static/js/787.0f216f03.chunk.js",
+    "static/media/Art.png": "/static/media/Art.bd622a947b37502effb1.png",
+    "static/media/firstLogo.png": "/static/media/firstLogo.2f3234eff5a9c06c7692.png",
+    "static/media/Cormorant-Regular.ttf": "/static/media/Cormorant-Regular.2f97e47769ab6ce8f465.ttf",
+    "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/frame.png": "/static/media/frame.b10e92ff413229414c1e.png",
+    "static/media/Astro.png": "/static/media/Astro.09711fb5016c49e32866.png",
+    "static/media/PremiereFoto.png": "/static/media/PremiereFoto.30c9d9dd7835e47b3c9c.png",
+    "static/media/Pr.png": "/static/media/Pr.d562e00db236009a0471.png",
+    "static/media/love.png": "/static/media/love.bec0a5fca8ec05f0549a.png",
+    "static/media/soul.png": "/static/media/soul.067100bd44766d5d5e78.png",
+    "static/media/karma.png": "/static/media/karma.e36e17a438d876d6f70b.png",
+    "static/media/child.png": "/static/media/child.93ce5b1a0dbdc8621be8.png",
+    "static/media/KaterinaKexx.png": "/static/media/KaterinaKexx.86882f50bebec15e8285.png",
+    "index.html": "/index.html",
+    "main.261ae83c.css.map": "/static/css/main.261ae83c.css.map",
+    "main.ffe94768.js.map": "/static/js/main.ffe94768.js.map",
+    "787.0f216f03.chunk.js.map": "/static/js/787.0f216f03.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.261ae83c.css",
+    "static/js/main.ffe94768.js"
+  ]
+}
