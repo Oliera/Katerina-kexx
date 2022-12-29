@@ -3,7 +3,6 @@ import Premiere from "../../assets/Premiere.png";
 import PremiereFoto from "../../assets/PremiereFoto.png";
 import Arrow from "../../assets/Arrow.png";
 import styles from "./SecondScreen.module.scss";
-import Timer from "../Timer/Timer";
 
 const SecondScreen = () => {
   const handleClick = () => {
@@ -43,7 +42,6 @@ const SecondScreen = () => {
         <img src={Arrow} alt='Arrow'></img>
         <p>888 р.</p>
       </div>
-      <Timer />
     </div>
   );
 };
