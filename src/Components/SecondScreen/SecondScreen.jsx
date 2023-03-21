@@ -1,15 +1,12 @@
 import React from "react";
 import Premiere from "../../assets/Premiere.png";
 import PremiereFoto from "../../assets/PremiereFoto.png";
-import Arrow from "../../assets/Arrow.png";
 import styles from "./SecondScreen.module.scss";
+import ContentPlayer from "../ContentPlayer/ContentPlayer";
 
 const SecondScreen = () => {
-  const handleClick = () => {
-    // eslint-disable-next-line no-restricted-globals
-    location.href =
-      "https://boosty.to/katerina.kexx/posts/b8ce1254-e863-4144-80da-8232b39cd059?share=post_link";
-  };
+  const meditationId = "emLnw0I8dIw";
+
   return (
     <div className={styles.mainSecond}>
       <img src={Premiere} alt='Премьера' width={200} />
@@ -37,10 +34,8 @@ const SecondScreen = () => {
           </p>
         </div>
       </div>
-      <div className={styles.customButton} onClick={handleClick}>
-        <p>КУПИТЬ</p>
-        <img src={Arrow} alt='Arrow'></img>
-        <p>888 р.</p>
+      <div className={styles.customButton}>
+        <ContentPlayer meditationId={meditationId} />
       </div>
     </div>
   );

@@ -59,10 +59,10 @@
 .customButton {
   display: flex;
   align-items: center;
-  width: 90%;
+  width: 100%;
+  height: 200px;
   justify-content: space-around;
   color: #bd264b;
-  border: 1px #bd264b solid;
   cursor: pointer;
   margin-top: 20px;
 }
